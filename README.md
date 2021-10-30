@@ -20,27 +20,20 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
-<style>div.desktop{margin-right:auto;margin-left:auto;max-width:1000px;width:100%}.img{margin:0 auto;max-width:1000px;width:100%;display:grid;grid-template-columns:65% 20%;gap:15%}legend{margin-bottom:10px}legend{text-align:center;font-size:25px}</style>
 
-<div class="desktop">
-  <picture>
-    <legend>Desktop</legend>
-    <img class="desktop" src="images/screenshot/desktop.png" alt="desktop design">
-  </picture>
-</div>
+Desktop
+
+![](./images/screenshot/desktop.png)
 
 ---
+Tablet
 
-<div class="img">
-  <picture>
-    <legend>Tablet</legend>
-    <img src="images/screenshot/tablet.png" alt="tablet design">
-  </picture>
-  <picture>
-    <legend>Mobile</legend>
-    <img src="images/screenshot/mobile.png" alt="mobile design">
-  </picture>
-</div>
+![](./images/screenshot/tablet.png)
+
+---
+Mobile
+
+![](./images/screenshot/mobile.png)
 
 ## My process
 
