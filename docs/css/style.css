@@ -20,9 +20,15 @@ body {
   min-height: 100vh;
 }
 
+.card-container
+{
+  height: max-content;
+}
+
 .card {
   max-width: 90%;
   width: 400px;
+  height: 100%;
   padding: 30px;
   margin-bottom: 30px;
   margin-right: auto;
@@ -41,8 +47,8 @@ body {
   .card-container
   {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-columns: repeat(3, minmax(min-content,300px));
+    grid-template-rows: repeat(3, minmax(min-content, 400px));
     justify-content: center;
     gap: 15px;
   }
@@ -84,8 +90,8 @@ body {
   .card-container
   {
     display: grid;
-    grid-template-columns: repeat(4, 275px);
-    grid-template-rows: repeat(2, 415px);
+    grid-template-columns: repeat(4, minmax(min-content,275px));
+    grid-template-rows: repeat(2, minmax(min-content,415px));
     justify-content: center;
     gap: 15px;
   }
