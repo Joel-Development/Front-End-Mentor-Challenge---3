@@ -10,14 +10,17 @@
 }
 
 body {
-  position: relative;
   box-sizing: border-box;
   margin: 0;
-  padding-top: 50px;
-  padding-bottom: 75px;
   background-color: var(--Light-grayish-blue);
   font-family: "Barlow Semi Condensed", sans-serif;
   min-height: 100vh;
+}
+
+.main-title
+{
+  font-size: 10vmin;
+  text-align: center;
 }
 
 .card-container
@@ -221,10 +224,6 @@ body {
 }
 
 .attribution {
-  position: fixed;
-  bottom: 0;
-  z-index: 100;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,5 +238,14 @@ body {
   line-height: 24px;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Light-gray);
+  text-decoration: none;
+}
+@media screen and (min-width: 1000px) {
+  .attribution a:hover,
+  .attribution a:active
+  {
+    text-shadow: 0 0 2px var(--Light-gray);
+    text-decoration: underline;
+  }
 }
