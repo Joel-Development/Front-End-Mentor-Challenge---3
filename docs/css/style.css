@@ -26,6 +26,7 @@ body {
 .card-container
 {
   height: max-content;
+  margin-bottom: 50px;
 }
 
 .card {
