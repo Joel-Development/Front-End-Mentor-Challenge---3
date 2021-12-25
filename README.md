@@ -14,16 +14,18 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Screenshot
 
-![](./screenshots/desktop.png)
+![](./screenshots/desktop.jpg)
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Joel-Development/FrontEndMentor---Challenge-3)
+- Solution URL: [Github](https://github.com/joel-development/frontendmentor---challenge-3)
+- Live: [Github Pages](https://joel-development.github.io/frontendmentor---challenge-3)
 
 ## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
+- BEM Methodology
 - Flexbox
 - CSS Grid
 - Mobile-first workflow

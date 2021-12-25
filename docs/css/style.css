@@ -19,8 +19,9 @@ body {
 
 .main-title
 {
-  font-size: 10vmin;
+  font-size: 8vmin;
   text-align: center;
+  color: var(--dark-blue);
 }
 
 .card-container
