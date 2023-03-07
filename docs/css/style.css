@@ -5,7 +5,7 @@
   --dark-blue: hsl(219, 29%, 14%);
   --white: hsl(0, 0%, 100%);
 
-  --Light-gray: hsl(0, 0%, 81%);
+  --Light-gray: #cfcfcf;
   --Light-grayish-blue: hsl(210, 46%, 95%);
 }
 
@@ -17,16 +17,10 @@ body {
   min-height: 100vh;
 }
 
-.main-title
-{
-  font-size: 8vmin;
-  text-align: center;
-  color: var(--dark-blue);
-}
-
 .card-container
 {
   height: max-content;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
